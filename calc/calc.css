@@ -1,0 +1,33 @@
+.container{
+    max-width: 400px;
+    margin: 10px auto 0 auto;
+    margin-top: 40px;
+    box-shadow: 0px 0px 43px 17px grey;
+}
+
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.btns{
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.btn{
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#equal{
+    background-color: blue;
+    color: white
+}
